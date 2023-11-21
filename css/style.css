@@ -35,6 +35,13 @@ h1 {
     font-weight: 600;
 }
 
+h2 {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 4px;
+    margin-bottom: 8px;
+}
+
 p {
     font-size: 14px;
     color:black;
@@ -43,10 +50,6 @@ p {
 img {
     max-width: 100%;
     display: block;
-}
-
-.border {
-    border: 2px dashed black;
 }
 
 /* header */
@@ -183,4 +186,31 @@ header {
 .heart-container:hover .heart {
     display: inline-block;
     color: red;
+}
+
+/* footer */
+footer {
+    background-color: #1A1A1A;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.footer-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 75%;
+    min-height: 80px;
+}
+
+.white {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 2px;
+}
+
+.info {
+    font-size: 12px;
+    margin-top: 10px;
 }
