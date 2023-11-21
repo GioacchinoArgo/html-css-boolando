@@ -1,0 +1,70 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 130px;
+    height: 30px;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 2px;
+    font-weight: 550;
+}
+
+
+body {
+ font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ color: #fff;
+}
+
+.border {
+    border: 2px dashed black;
+}
+/* header */
+header {
+   background-color: #FF6900;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   margin-bottom: 80px;
+   box-shadow: 1px 1px 3px gray;
+
+}
+
+.navbar {
+    min-width: 75%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar > * {
+    flex-basis: 20%;
+    padding: 10px 0;
+}
+
+.nav-logo {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-icons {
+    flex-basis: 15%;
+    border-radius: 2px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
